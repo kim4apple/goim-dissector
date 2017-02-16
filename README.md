@@ -1,6 +1,8 @@
 > A Wireshark plugin for GoIM protocol
 
-This is a goim desector plugin for wireshark
+![snap](./snap.jpg)
+
+
 
 # Install
 
@@ -13,6 +15,10 @@ Default is listen on port 8071. You can change port as you wish.
 tcp_encap_table:add(8071, go_proto)
 
 ```
+
+
+
+
 
 # Code
 
@@ -73,5 +79,16 @@ do
   local tcp_encap_table = DissectorTable.get("tcp.port")
   tcp_encap_table:add(8071, go_proto)
 end
-
 ```
+
+
+
+# Contact
+
+[kim4apple](https://github.com/kim4apple)
+
+# License
+
+goim-desector is available free of change under the Open Source license, along with the MIT license.
+
+
