@@ -52,5 +52,5 @@ do
   end
 
   local tcp_encap_table = DissectorTable.get("tcp.port")
-  tcp_encap_table:add(8071, go_proto)
+  tcp_encap_table:add(8071, goim_proto)
 end
